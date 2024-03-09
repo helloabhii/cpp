@@ -5,10 +5,12 @@
 int main()
 {
   std::cout << "Enter two Numbers: ";
-  int x {}; //define variable x to  hold user input (and value-initialize it)
-  int y {};
-  std::cin >> x >> y ; //get number from keyboard and store it in var x
-  std::cout << "You Entered: " << x << " and "<<  y << '\n';
+  int numOne {}; //define variable x to  hold user input (and value-initialize it)
+  int numTwo {};
+  std::cin >> numOne >> numTwo ; //get number from keyboard and store it in var x
+  std::cout << "You Entered: " << numOne << " and "<<  numTwo << '\n';
+  std::cout << " This One Resolved" << std::endl;
+
   
   
   //uninitialized variables 
@@ -19,9 +21,9 @@ int main()
   std::cout << "Size of int: "<< sizeof(int) << '\n';
 
   // literals and variable 
-  std::cout << 69 << '\n';
-  int numOne {71};
-  std::cout << numOne << '\n';
+  std::cout << 69 << '\n'; //this is literal 
+  int numThree {71}; // this is variable 
+  std::cout << numThree << '\n';
 
   //Operator 
   std::cout << 1+2 << '\n';
