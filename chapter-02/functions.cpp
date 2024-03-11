@@ -12,6 +12,7 @@ void userD()
 int returnFive()
 {
   return 5;
+  return 71;
 }
 
 //func get value from user 
@@ -88,7 +89,7 @@ int  addTwo(int x, int y)//x and y are local variables
 //main 
 
 int main()
-{
+{ 
    std::cout << "Main function started..."<< '\n';
    userD(); //user defined function executed after above line 
    std::cout << "main function finished." << '\n';
