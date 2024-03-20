@@ -9,5 +9,5 @@ int main()
   if (5) // int value 5 implicitly converted into type bool
   {
   }
-  */
+  * /
 }
